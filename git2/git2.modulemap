@@ -34,6 +34,7 @@ framework module git2 {
     header "pack.h"
     header "patch.h"
     header "pathspec.h"
+    header "proxy.h"
     header "rebase.h"
     header "refdb.h"
     header "reflog.h"

@@ -33,6 +33,42 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		8CAC92971E58B14800BA2587 /* apply.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92951E58B14800BA2587 /* apply.c */; };
+		8CAC92981E58B14800BA2587 /* apply.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92951E58B14800BA2587 /* apply.c */; };
+		8CAC92991E58B14800BA2587 /* apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92961E58B14800BA2587 /* apply.h */; };
+		8CAC929A1E58B14800BA2587 /* apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92961E58B14800BA2587 /* apply.h */; };
+		8CAC929F1E58B1DB00BA2587 /* diff_generate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC929B1E58B1DB00BA2587 /* diff_generate.c */; };
+		8CAC92A01E58B1DB00BA2587 /* diff_generate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC929B1E58B1DB00BA2587 /* diff_generate.c */; };
+		8CAC92A11E58B1DB00BA2587 /* diff_generate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC929C1E58B1DB00BA2587 /* diff_generate.h */; };
+		8CAC92A21E58B1DB00BA2587 /* diff_generate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC929C1E58B1DB00BA2587 /* diff_generate.h */; };
+		8CAC92A31E58B1DB00BA2587 /* diff_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC929D1E58B1DB00BA2587 /* diff_parse.c */; };
+		8CAC92A41E58B1DB00BA2587 /* diff_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC929D1E58B1DB00BA2587 /* diff_parse.c */; };
+		8CAC92A51E58B1DB00BA2587 /* diff_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC929E1E58B1DB00BA2587 /* diff_parse.h */; };
+		8CAC92A61E58B1DB00BA2587 /* diff_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC929E1E58B1DB00BA2587 /* diff_parse.h */; };
+		8CAC92A91E58B22300BA2587 /* merge_driver.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92A71E58B22300BA2587 /* merge_driver.c */; };
+		8CAC92AA1E58B22300BA2587 /* merge_driver.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92A71E58B22300BA2587 /* merge_driver.c */; };
+		8CAC92AB1E58B22300BA2587 /* merge_driver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92A81E58B22300BA2587 /* merge_driver.h */; };
+		8CAC92AC1E58B22300BA2587 /* merge_driver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92A81E58B22300BA2587 /* merge_driver.h */; };
+		8CAC92B31E58B26000BA2587 /* patch_generate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92AD1E58B26000BA2587 /* patch_generate.c */; };
+		8CAC92B41E58B26000BA2587 /* patch_generate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92AD1E58B26000BA2587 /* patch_generate.c */; };
+		8CAC92B51E58B26000BA2587 /* patch_generate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92AE1E58B26000BA2587 /* patch_generate.h */; };
+		8CAC92B61E58B26000BA2587 /* patch_generate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92AE1E58B26000BA2587 /* patch_generate.h */; };
+		8CAC92B71E58B26000BA2587 /* patch_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92AF1E58B26000BA2587 /* patch_parse.c */; };
+		8CAC92B81E58B26000BA2587 /* patch_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92AF1E58B26000BA2587 /* patch_parse.c */; };
+		8CAC92B91E58B26000BA2587 /* patch_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92B01E58B26000BA2587 /* patch_parse.h */; };
+		8CAC92BA1E58B26000BA2587 /* patch_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92B01E58B26000BA2587 /* patch_parse.h */; };
+		8CAC92BB1E58B26000BA2587 /* patch.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92B11E58B26000BA2587 /* patch.c */; };
+		8CAC92BC1E58B26000BA2587 /* patch.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92B11E58B26000BA2587 /* patch.c */; };
+		8CAC92BD1E58B26000BA2587 /* patch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92B21E58B26000BA2587 /* patch.h */; };
+		8CAC92BE1E58B26000BA2587 /* patch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92B21E58B26000BA2587 /* patch.h */; };
+		8CAC92C11E58B27200BA2587 /* proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92BF1E58B27200BA2587 /* proxy.c */; };
+		8CAC92C21E58B27200BA2587 /* proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC92BF1E58B27200BA2587 /* proxy.c */; };
+		8CAC92C31E58B27200BA2587 /* proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92C01E58B27200BA2587 /* proxy.h */; };
+		8CAC92C41E58B27200BA2587 /* proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92C01E58B27200BA2587 /* proxy.h */; };
+		8CAC92C61E58B2F000BA2587 /* pthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92C51E58B2F000BA2587 /* pthread.h */; };
+		8CAC92C71E58B2F000BA2587 /* pthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92C51E58B2F000BA2587 /* pthread.h */; };
+		8CAC92C91E58B33400BA2587 /* proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92C81E58B33400BA2587 /* proxy.h */; };
+		8CAC92CA1E58B33400BA2587 /* proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92C81E58B33400BA2587 /* proxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F804C2221B7BF2CD00C40501 /* annotated_commit.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C10E1B7BF2CC00C40501 /* annotated_commit.c */; };
 		F804C2231B7BF2CD00C40501 /* annotated_commit.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C10E1B7BF2CC00C40501 /* annotated_commit.c */; };
 		F804C2241B7BF2CD00C40501 /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C10F1B7BF2CC00C40501 /* annotated_commit.h */; };
@@ -121,10 +157,6 @@
 		F804C2771B7BF2CE00C40501 /* curl_stream.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C1381B7BF2CC00C40501 /* curl_stream.h */; };
 		F804C2781B7BF2CE00C40501 /* date.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1391B7BF2CC00C40501 /* date.c */; };
 		F804C2791B7BF2CE00C40501 /* date.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1391B7BF2CC00C40501 /* date.c */; };
-		F804C27A1B7BF2CE00C40501 /* delta-apply.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C13A1B7BF2CC00C40501 /* delta-apply.c */; };
-		F804C27B1B7BF2CE00C40501 /* delta-apply.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C13A1B7BF2CC00C40501 /* delta-apply.c */; };
-		F804C27C1B7BF2CE00C40501 /* delta-apply.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C13B1B7BF2CC00C40501 /* delta-apply.h */; };
-		F804C27D1B7BF2CE00C40501 /* delta-apply.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C13B1B7BF2CC00C40501 /* delta-apply.h */; };
 		F804C27E1B7BF2CE00C40501 /* delta.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C13C1B7BF2CC00C40501 /* delta.c */; };
 		F804C27F1B7BF2CE00C40501 /* delta.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C13C1B7BF2CC00C40501 /* delta.c */; };
 		F804C2801B7BF2CE00C40501 /* delta.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C13D1B7BF2CC00C40501 /* delta.h */; };
@@ -143,10 +175,6 @@
 		F804C28D1B7BF2CE00C40501 /* diff_file.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1431B7BF2CC00C40501 /* diff_file.c */; };
 		F804C28E1B7BF2CE00C40501 /* diff_file.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C1441B7BF2CC00C40501 /* diff_file.h */; };
 		F804C28F1B7BF2CE00C40501 /* diff_file.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C1441B7BF2CC00C40501 /* diff_file.h */; };
-		F804C2901B7BF2CE00C40501 /* diff_patch.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1451B7BF2CC00C40501 /* diff_patch.c */; };
-		F804C2911B7BF2CE00C40501 /* diff_patch.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1451B7BF2CC00C40501 /* diff_patch.c */; };
-		F804C2921B7BF2CE00C40501 /* diff_patch.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C1461B7BF2CC00C40501 /* diff_patch.h */; };
-		F804C2931B7BF2CE00C40501 /* diff_patch.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C1461B7BF2CC00C40501 /* diff_patch.h */; };
 		F804C2941B7BF2CE00C40501 /* diff_print.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1471B7BF2CC00C40501 /* diff_print.c */; };
 		F804C2951B7BF2CE00C40501 /* diff_print.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1471B7BF2CC00C40501 /* diff_print.c */; };
 		F804C2961B7BF2CE00C40501 /* diff_stats.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1481B7BF2CC00C40501 /* diff_stats.c */; };
@@ -668,6 +696,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8CAC92951E58B14800BA2587 /* apply.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apply.c; sourceTree = "<group>"; };
+		8CAC92961E58B14800BA2587 /* apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apply.h; sourceTree = "<group>"; };
+		8CAC929B1E58B1DB00BA2587 /* diff_generate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diff_generate.c; sourceTree = "<group>"; };
+		8CAC929C1E58B1DB00BA2587 /* diff_generate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diff_generate.h; sourceTree = "<group>"; };
+		8CAC929D1E58B1DB00BA2587 /* diff_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diff_parse.c; sourceTree = "<group>"; };
+		8CAC929E1E58B1DB00BA2587 /* diff_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diff_parse.h; sourceTree = "<group>"; };
+		8CAC92A71E58B22300BA2587 /* merge_driver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = merge_driver.c; sourceTree = "<group>"; };
+		8CAC92A81E58B22300BA2587 /* merge_driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = merge_driver.h; sourceTree = "<group>"; };
+		8CAC92AD1E58B26000BA2587 /* patch_generate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = patch_generate.c; sourceTree = "<group>"; };
+		8CAC92AE1E58B26000BA2587 /* patch_generate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patch_generate.h; sourceTree = "<group>"; };
+		8CAC92AF1E58B26000BA2587 /* patch_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = patch_parse.c; sourceTree = "<group>"; };
+		8CAC92B01E58B26000BA2587 /* patch_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patch_parse.h; sourceTree = "<group>"; };
+		8CAC92B11E58B26000BA2587 /* patch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = patch.c; sourceTree = "<group>"; };
+		8CAC92B21E58B26000BA2587 /* patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patch.h; sourceTree = "<group>"; };
+		8CAC92BF1E58B27200BA2587 /* proxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = proxy.c; sourceTree = "<group>"; };
+		8CAC92C01E58B27200BA2587 /* proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
+		8CAC92C51E58B2F000BA2587 /* pthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pthread.h; sourceTree = "<group>"; };
+		8CAC92C81E58B33400BA2587 /* proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proxy.h; path = ../External/libgit2/include/git2/proxy.h; sourceTree = "<group>"; };
+		8CAC92CB1E58B59800BA2587 /* libpthread.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpthread.tbd; path = usr/lib/libpthread.tbd; sourceTree = SDKROOT; };
 		F804C10E1B7BF2CC00C40501 /* annotated_commit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = annotated_commit.c; sourceTree = "<group>"; };
 		F804C10F1B7BF2CC00C40501 /* annotated_commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = annotated_commit.h; sourceTree = "<group>"; };
 		F804C1101B7BF2CC00C40501 /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
@@ -712,8 +759,6 @@
 		F804C1371B7BF2CC00C40501 /* curl_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curl_stream.c; sourceTree = "<group>"; };
 		F804C1381B7BF2CC00C40501 /* curl_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl_stream.h; sourceTree = "<group>"; };
 		F804C1391B7BF2CC00C40501 /* date.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = date.c; sourceTree = "<group>"; };
-		F804C13A1B7BF2CC00C40501 /* delta-apply.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "delta-apply.c"; sourceTree = "<group>"; };
-		F804C13B1B7BF2CC00C40501 /* delta-apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "delta-apply.h"; sourceTree = "<group>"; };
 		F804C13C1B7BF2CC00C40501 /* delta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = delta.c; sourceTree = "<group>"; };
 		F804C13D1B7BF2CC00C40501 /* delta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delta.h; sourceTree = "<group>"; };
 		F804C13E1B7BF2CC00C40501 /* describe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = describe.c; sourceTree = "<group>"; };
@@ -723,8 +768,6 @@
 		F804C1421B7BF2CC00C40501 /* diff_driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diff_driver.h; sourceTree = "<group>"; };
 		F804C1431B7BF2CC00C40501 /* diff_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diff_file.c; sourceTree = "<group>"; };
 		F804C1441B7BF2CC00C40501 /* diff_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diff_file.h; sourceTree = "<group>"; };
-		F804C1451B7BF2CC00C40501 /* diff_patch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diff_patch.c; sourceTree = "<group>"; };
-		F804C1461B7BF2CC00C40501 /* diff_patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diff_patch.h; sourceTree = "<group>"; };
 		F804C1471B7BF2CC00C40501 /* diff_print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diff_print.c; sourceTree = "<group>"; };
 		F804C1481B7BF2CC00C40501 /* diff_stats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diff_stats.c; sourceTree = "<group>"; };
 		F804C1491B7BF2CC00C40501 /* diff_tform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diff_tform.c; sourceTree = "<group>"; };
@@ -1026,6 +1069,8 @@
 			children = (
 				F804C10E1B7BF2CC00C40501 /* annotated_commit.c */,
 				F804C10F1B7BF2CC00C40501 /* annotated_commit.h */,
+				8CAC92951E58B14800BA2587 /* apply.c */,
+				8CAC92961E58B14800BA2587 /* apply.h */,
 				F804C1101B7BF2CC00C40501 /* array.h */,
 				F804C1131B7BF2CC00C40501 /* attr_file.c */,
 				F804C1141B7BF2CC00C40501 /* attr_file.h */,
@@ -1068,8 +1113,6 @@
 				F804C1371B7BF2CC00C40501 /* curl_stream.c */,
 				F804C1381B7BF2CC00C40501 /* curl_stream.h */,
 				F804C1391B7BF2CC00C40501 /* date.c */,
-				F804C13A1B7BF2CC00C40501 /* delta-apply.c */,
-				F804C13B1B7BF2CC00C40501 /* delta-apply.h */,
 				F804C13C1B7BF2CC00C40501 /* delta.c */,
 				F804C13D1B7BF2CC00C40501 /* delta.h */,
 				F804C13E1B7BF2CC00C40501 /* describe.c */,
@@ -1077,8 +1120,10 @@
 				F804C1421B7BF2CC00C40501 /* diff_driver.h */,
 				F804C1431B7BF2CC00C40501 /* diff_file.c */,
 				F804C1441B7BF2CC00C40501 /* diff_file.h */,
-				F804C1451B7BF2CC00C40501 /* diff_patch.c */,
-				F804C1461B7BF2CC00C40501 /* diff_patch.h */,
+				8CAC929B1E58B1DB00BA2587 /* diff_generate.c */,
+				8CAC929C1E58B1DB00BA2587 /* diff_generate.h */,
+				8CAC929D1E58B1DB00BA2587 /* diff_parse.c */,
+				8CAC929E1E58B1DB00BA2587 /* diff_parse.h */,
 				F804C1471B7BF2CC00C40501 /* diff_print.c */,
 				F804C1481B7BF2CC00C40501 /* diff_stats.c */,
 				F804C1491B7BF2CC00C40501 /* diff_tform.c */,
@@ -1118,6 +1163,8 @@
 				F804C16E1B7BF2CC00C40501 /* iterator.h */,
 				F804C16F1B7BF2CC00C40501 /* khash.h */,
 				F804C1701B7BF2CC00C40501 /* map.h */,
+				8CAC92A71E58B22300BA2587 /* merge_driver.c */,
+				8CAC92A81E58B22300BA2587 /* merge_driver.h */,
 				F804C1731B7BF2CD00C40501 /* merge_file.c */,
 				F804C1711B7BF2CC00C40501 /* merge.c */,
 				F804C1721B7BF2CD00C40501 /* merge.h */,
@@ -1149,6 +1196,12 @@
 				F804C18E1B7BF2CD00C40501 /* pack-objects.h */,
 				F804C18F1B7BF2CD00C40501 /* pack.c */,
 				F804C1901B7BF2CD00C40501 /* pack.h */,
+				8CAC92AD1E58B26000BA2587 /* patch_generate.c */,
+				8CAC92AE1E58B26000BA2587 /* patch_generate.h */,
+				8CAC92AF1E58B26000BA2587 /* patch_parse.c */,
+				8CAC92B01E58B26000BA2587 /* patch_parse.h */,
+				8CAC92B11E58B26000BA2587 /* patch.c */,
+				8CAC92B21E58B26000BA2587 /* patch.h */,
 				F804C1911B7BF2CD00C40501 /* path.c */,
 				F804C1921B7BF2CD00C40501 /* path.h */,
 				F804C1931B7BF2CD00C40501 /* pathspec.c */,
@@ -1159,6 +1212,8 @@
 				F804C1981B7BF2CD00C40501 /* posix.h */,
 				F804C1991B7BF2CD00C40501 /* pqueue.c */,
 				F804C19A1B7BF2CD00C40501 /* pqueue.h */,
+				8CAC92BF1E58B27200BA2587 /* proxy.c */,
+				8CAC92C01E58B27200BA2587 /* proxy.h */,
 				F804C19B1B7BF2CD00C40501 /* push.c */,
 				F804C19C1B7BF2CD00C40501 /* push.h */,
 				F804C19D1B7BF2CD00C40501 /* rebase.c */,
@@ -1275,6 +1330,7 @@
 			children = (
 				F804C1E91B7BF2CD00C40501 /* map.c */,
 				F804C1EA1B7BF2CD00C40501 /* posix.h */,
+				8CAC92C51E58B2F000BA2587 /* pthread.h */,
 				F804C1EB1B7BF2CD00C40501 /* realpath.c */,
 			);
 			path = unix;
@@ -1415,6 +1471,7 @@
 				F8D67EA41B7BB7DA00021BDF /* pack.h */,
 				F8D67EA51B7BB7DA00021BDF /* patch.h */,
 				F8D67EA61B7BB7DA00021BDF /* pathspec.h */,
+				8CAC92C81E58B33400BA2587 /* proxy.h */,
 				F8D67EA71B7BB7DA00021BDF /* rebase.h */,
 				F8D67EA81B7BB7DA00021BDF /* refdb.h */,
 				F8D67EA91B7BB7DA00021BDF /* reflog.h */,
@@ -1446,6 +1503,7 @@
 		F8E3B7451B8685A40089F413 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CAC92CB1E58B59800BA2587 /* libpthread.tbd */,
 				F8FF92DF1CBC19A700FC7CAE /* libiconv.tbd */,
 				F8FF92DD1CBC199E00FC7CAE /* libiconv.tbd */,
 				F8FF92DB1CBC18F000FC7CAE /* libssh2.a */,
@@ -1470,10 +1528,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B37E0C1B83611C003CF5F7 /* git2.h in Headers */,
+				8CAC92CA1E58B33400BA2587 /* proxy.h in Headers */,
 				F85B3D151CAE163900A1A225 /* sys in Headers */,
 				F804C4361B7BF2FB00C40501 /* xtypes.h in Headers */,
 				F804C3061B7BF2D200C40501 /* odb.h in Headers */,
 				F804C43A1B7BF2FC00C40501 /* xutils.h in Headers */,
+				8CAC92BE1E58B26000BA2587 /* patch.h in Headers */,
 				F804C2E01B7BF2D000C40501 /* iterator.h in Headers */,
 				F8D67EB81B7BB7DA00021BDF /* annotated_commit.h in Headers */,
 				F804C2521B7BF2CD00C40501 /* cc-compat.h in Headers */,
@@ -1484,7 +1544,6 @@
 				F8D67EC01B7BB7DA00021BDF /* branch.h in Headers */,
 				F804C2441B7BF2CD00C40501 /* branch.h in Headers */,
 				F8D67EC21B7BB7DA00021BDF /* buffer.h in Headers */,
-				F804C2921B7BF2CE00C40501 /* diff_patch.h in Headers */,
 				F8D67EC41B7BB7DA00021BDF /* checkout.h in Headers */,
 				F804C3301B7BF2D400C40501 /* pool.h in Headers */,
 				F804C38E1B7BF2DB00C40501 /* submodule.h in Headers */,
@@ -1513,12 +1572,13 @@
 				F804C2241B7BF2CD00C40501 /* annotated_commit.h in Headers */,
 				F804C3741B7BF2D800C40501 /* socket_stream.h in Headers */,
 				F804C3CE1B7BF2E200C40501 /* tree.h in Headers */,
+				8CAC929A1E58B14800BA2587 /* apply.h in Headers */,
 				F8D67ECE1B7BB7DA00021BDF /* config.h in Headers */,
 				F8D67ED01B7BB7DA00021BDF /* cred_helpers.h in Headers */,
 				F8D67ED21B7BB7DA00021BDF /* describe.h in Headers */,
 				F8D67ED41B7BB7DA00021BDF /* diff.h in Headers */,
-				F804C27C1B7BF2CE00C40501 /* delta-apply.h in Headers */,
 				F8D67ED61B7BB7DA00021BDF /* errors.h in Headers */,
+				8CAC92A61E58B1DB00BA2587 /* diff_parse.h in Headers */,
 				F804C3341B7BF2D400C40501 /* posix.h in Headers */,
 				F8D67ED81B7BB7DA00021BDF /* filter.h in Headers */,
 				F804C2A61B7BF2CE00C40501 /* fetchhead.h in Headers */,
@@ -1527,6 +1587,7 @@
 				F8D67EDA1B7BB7DA00021BDF /* global.h in Headers */,
 				F804C3961B7BF2DC00C40501 /* tag.h in Headers */,
 				F804C3201B7BF2D300C40501 /* pack-objects.h in Headers */,
+				8CAC92C41E58B27200BA2587 /* proxy.h in Headers */,
 				F804C3421B7BF2D500C40501 /* refdb.h in Headers */,
 				F804C2FC1B7BF2D100C40501 /* notes.h in Headers */,
 				F8D67EDC1B7BB7DA00021BDF /* graph.h in Headers */,
@@ -1556,6 +1617,7 @@
 				F8D67EF21B7BB7DA00021BDF /* odb.h in Headers */,
 				F804C2D41B7BF2D000C40501 /* ignore.h in Headers */,
 				F804C2E21B7BF2D000C40501 /* khash.h in Headers */,
+				8CAC92BA1E58B26000BA2587 /* patch_parse.h in Headers */,
 				F804C2C41B7BF2CF00C40501 /* hash_openssl.h in Headers */,
 				F8D67EF01B7BB7DA00021BDF /* odb_backend.h in Headers */,
 				F804C2E81B7BF2D100C40501 /* merge.h in Headers */,
@@ -1581,6 +1643,7 @@
 				F8D67F041B7BB7DA00021BDF /* refs.h in Headers */,
 				F8D67F081B7BB7DA00021BDF /* remote.h in Headers */,
 				F804C28A1B7BF2CE00C40501 /* diff_driver.h in Headers */,
+				8CAC92C71E58B2F000BA2587 /* pthread.h in Headers */,
 				F804C2E41B7BF2D000C40501 /* map.h in Headers */,
 				F8D67F001B7BB7DA00021BDF /* refdb.h in Headers */,
 				F804C2261B7BF2CD00C40501 /* array.h in Headers */,
@@ -1592,10 +1655,12 @@
 				F804C30E1B7BF2D200C40501 /* offmap.h in Headers */,
 				F804C3A21B7BF2DD00C40501 /* trace.h in Headers */,
 				F8D67F021B7BB7DA00021BDF /* reflog.h in Headers */,
+				8CAC92A21E58B1DB00BA2587 /* diff_generate.h in Headers */,
 				F804C3581B7BF2D600C40501 /* repo_template.h in Headers */,
 				F8D67F061B7BB7DA00021BDF /* refspec.h in Headers */,
 				F804C33C1B7BF2D400C40501 /* push.h in Headers */,
 				F8D67F0C1B7BB7DA00021BDF /* reset.h in Headers */,
+				8CAC92B61E58B26000BA2587 /* patch_generate.h in Headers */,
 				F804C4221B7BF2F500C40501 /* xdiffi.h in Headers */,
 				F804C41E1B7BF2F400C40501 /* xdiff.h in Headers */,
 				F8D67F0E1B7BB7DA00021BDF /* revert.h in Headers */,
@@ -1631,6 +1696,7 @@
 				F804C3BE1B7BF2E000C40501 /* smart.h in Headers */,
 				F8D67F2F1B7BB7E800021BDF /* tree.h in Headers */,
 				F804C39A1B7BF2DC00C40501 /* thread-utils.h in Headers */,
+				8CAC92AC1E58B22300BA2587 /* merge_driver.h in Headers */,
 				F804C43E1B7BF2FD00C40501 /* zstream.h in Headers */,
 				F804C2861B7BF2CE00C40501 /* diff.h in Headers */,
 				F804C3921B7BF2DB00C40501 /* sysdir.h in Headers */,
@@ -1653,6 +1719,7 @@
 				F83488601B7BFD4500A5B932 /* sys in Headers */,
 				F804C3431B7BF2D500C40501 /* refdb.h in Headers */,
 				F804C4371B7BF2FB00C40501 /* xtypes.h in Headers */,
+				8CAC92B51E58B26000BA2587 /* patch_generate.h in Headers */,
 				F804C3071B7BF2D200C40501 /* odb.h in Headers */,
 				F804C43B1B7BF2FC00C40501 /* xutils.h in Headers */,
 				F804C2E11B7BF2D000C40501 /* iterator.h in Headers */,
@@ -1665,11 +1732,11 @@
 				F8D67EED1B7BB7DA00021BDF /* notes.h in Headers */,
 				F804C2451B7BF2CD00C40501 /* branch.h in Headers */,
 				F8D67EC31B7BB7DA00021BDF /* buffer.h in Headers */,
-				F804C2931B7BF2CE00C40501 /* diff_patch.h in Headers */,
 				F8D67EEB1B7BB7DA00021BDF /* net.h in Headers */,
 				F804C3311B7BF2D400C40501 /* pool.h in Headers */,
 				F804C38F1B7BF2DB00C40501 /* submodule.h in Headers */,
 				F8D67F031B7BB7DA00021BDF /* reflog.h in Headers */,
+				8CAC92B91E58B26000BA2587 /* patch_parse.h in Headers */,
 				F804C32D1B7BF2D300C40501 /* pathspec.h in Headers */,
 				F804C34B1B7BF2D500C40501 /* reflog.h in Headers */,
 				F804C3711B7BF2D800C40501 /* signature.h in Headers */,
@@ -1685,20 +1752,24 @@
 				F804C3AF1B7BF2DE00C40501 /* auth_negotiate.h in Headers */,
 				F804C39F1B7BF2DD00C40501 /* tls_stream.h in Headers */,
 				F804C3671B7BF2D700C40501 /* revwalk.h in Headers */,
+				8CAC92C61E58B2F000BA2587 /* pthread.h in Headers */,
 				F804C29D1B7BF2CE00C40501 /* diff_xdiff.h in Headers */,
 				F804C2F91B7BF2D100C40501 /* netops.h in Headers */,
 				F804C3891B7BF2DA00C40501 /* strmap.h in Headers */,
+				8CAC92A11E58B1DB00BA2587 /* diff_generate.h in Headers */,
 				F8D67EDF1B7BB7DA00021BDF /* ignore.h in Headers */,
 				F804C2331B7BF2CD00C40501 /* attrcache.h in Headers */,
+				8CAC92BD1E58B26000BA2587 /* patch.h in Headers */,
 				F804C34F1B7BF2D500C40501 /* refs.h in Headers */,
+				8CAC92991E58B14800BA2587 /* apply.h in Headers */,
 				F804C2251B7BF2CD00C40501 /* annotated_commit.h in Headers */,
 				F804C3751B7BF2D800C40501 /* socket_stream.h in Headers */,
 				F804C3CF1B7BF2E200C40501 /* tree.h in Headers */,
 				F8D67F0D1B7BB7DA00021BDF /* reset.h in Headers */,
 				F8D67EEF1B7BB7DA00021BDF /* object.h in Headers */,
 				F8D67ED11B7BB7DA00021BDF /* cred_helpers.h in Headers */,
+				8CAC92A51E58B1DB00BA2587 /* diff_parse.h in Headers */,
 				F8D67EC71B7BB7DA00021BDF /* cherrypick.h in Headers */,
-				F804C27D1B7BF2CE00C40501 /* delta-apply.h in Headers */,
 				F8D67F171B7BB7DA00021BDF /* stash.h in Headers */,
 				F804C3351B7BF2D400C40501 /* posix.h in Headers */,
 				F8D67F2C1B7BB7E800021BDF /* transaction.h in Headers */,
@@ -1723,6 +1794,7 @@
 				F804C22F1B7BF2CD00C40501 /* attr_file.h in Headers */,
 				F804C3791B7BF2D900C40501 /* sortedcache.h in Headers */,
 				F804C2611B7BF2CD00C40501 /* commit.h in Headers */,
+				8CAC92AB1E58B22300BA2587 /* merge_driver.h in Headers */,
 				F804C3571B7BF2D600C40501 /* remote.h in Headers */,
 				F804C3011B7BF2D100C40501 /* object.h in Headers */,
 				F8D67F1D1B7BB7DA00021BDF /* strarray.h in Headers */,
@@ -1736,6 +1808,7 @@
 				F8D67F301B7BB7E800021BDF /* tree.h in Headers */,
 				F804C2D51B7BF2D000C40501 /* ignore.h in Headers */,
 				F804C2E31B7BF2D000C40501 /* khash.h in Headers */,
+				8CAC92C91E58B33400BA2587 /* proxy.h in Headers */,
 				F804C2C51B7BF2CF00C40501 /* hash_openssl.h in Headers */,
 				F8D67EC51B7BB7DA00021BDF /* checkout.h in Headers */,
 				F804C2E91B7BF2D100C40501 /* merge.h in Headers */,
@@ -1787,6 +1860,7 @@
 				F804C24D1B7BF2CD00C40501 /* buffer.h in Headers */,
 				F8D67F2A1B7BB7E800021BDF /* trace.h in Headers */,
 				F8D67EE71B7BB7DA00021BDF /* merge.h in Headers */,
+				8CAC92C31E58B27200BA2587 /* proxy.h in Headers */,
 				F804C2AF1B7BF2CF00C40501 /* fileops.h in Headers */,
 				F8D67EBF1B7BB7DA00021BDF /* blob.h in Headers */,
 				F804C2BB1B7BF2CF00C40501 /* global.h in Headers */,
@@ -1958,9 +2032,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAC92981E58B14800BA2587 /* apply.c in Sources */,
 				F804C3D01B7BF2E300C40501 /* tsort.c in Sources */,
 				F804C2E61B7BF2D000C40501 /* merge.c in Sources */,
 				F804C2F21B7BF2D100C40501 /* mwindow.c in Sources */,
+				8CAC92B81E58B26000BA2587 /* patch_parse.c in Sources */,
 				F804C3501B7BF2D600C40501 /* refspec.c in Sources */,
 				F804C3221B7BF2D300C40501 /* pack.c in Sources */,
 				F804C3321B7BF2D400C40501 /* posix.c in Sources */,
@@ -1980,6 +2056,7 @@
 				F804C2621B7BF2CD00C40501 /* commit_list.c in Sources */,
 				F804C3C01B7BF2E100C40501 /* smart_pkt.c in Sources */,
 				F804C3D61B7BF2E400C40501 /* realpath.c in Sources */,
+				8CAC92A01E58B1DB00BA2587 /* diff_generate.c in Sources */,
 				F804C23E1B7BF2CD00C40501 /* blob.c in Sources */,
 				F804C3A61B7BF2DE00C40501 /* transport.c in Sources */,
 				F804C29E1B7BF2CE00C40501 /* errors.c in Sources */,
@@ -1995,14 +2072,17 @@
 				F804C3C81B7BF2E100C40501 /* tree-cache.c in Sources */,
 				F804C3021B7BF2D200C40501 /* object_api.c in Sources */,
 				F804C30A1B7BF2D200C40501 /* odb_mempack.c in Sources */,
+				8CAC92A41E58B1DB00BA2587 /* diff_parse.c in Sources */,
 				F804C25A1B7BF2CD00C40501 /* clone.c in Sources */,
 				F804C3641B7BF2D700C40501 /* revwalk.c in Sources */,
 				F804C2781B7BF2CE00C40501 /* date.c in Sources */,
 				F804C2FE1B7BF2D100C40501 /* object.c in Sources */,
 				F804C3101B7BF2D200C40501 /* oid.c in Sources */,
 				F804C3B01B7BF2DF00C40501 /* cred.c in Sources */,
+				8CAC92AA1E58B22300BA2587 /* merge_driver.c in Sources */,
 				F804C3D21B7BF2E300C40501 /* map.c in Sources */,
 				F804C3C61B7BF2E100C40501 /* winhttp.c in Sources */,
+				8CAC92C21E58B27200BA2587 /* proxy.c in Sources */,
 				F804C3C21B7BF2E100C40501 /* smart_protocol.c in Sources */,
 				F804C3BC1B7BF2E000C40501 /* smart.c in Sources */,
 				F804C3361B7BF2D400C40501 /* pqueue.c in Sources */,
@@ -2023,7 +2103,6 @@
 				F804C3901B7BF2DB00C40501 /* sysdir.c in Sources */,
 				F804C26E1B7BF2CE00C40501 /* config_file.c in Sources */,
 				F804C24A1B7BF2CD00C40501 /* buffer.c in Sources */,
-				F804C2901B7BF2CE00C40501 /* diff_patch.c in Sources */,
 				F804C2D61B7BF2D000C40501 /* index.c in Sources */,
 				F804C2A41B7BF2CE00C40501 /* fetchhead.c in Sources */,
 				F804C22C1B7BF2CD00C40501 /* attr_file.c in Sources */,
@@ -2037,6 +2116,7 @@
 				F804C2B41B7BF2CF00C40501 /* fnmatch.c in Sources */,
 				F804C2721B7BF2CE00C40501 /* crlf.c in Sources */,
 				F8F708CF1B7D579000F227F2 /* indexer.c in Sources */,
+				8CAC92B41E58B26000BA2587 /* patch_generate.c in Sources */,
 				F804C2EE1B7BF2D100C40501 /* message.c in Sources */,
 				F804C3A81B7BF2DE00C40501 /* auth.c in Sources */,
 				F804C3A41B7BF2DE00C40501 /* transaction.c in Sources */,
@@ -2061,6 +2141,7 @@
 				F804C3401B7BF2D500C40501 /* refdb.c in Sources */,
 				F804C4381B7BF2FC00C40501 /* xutils.c in Sources */,
 				F804C3BA1B7BF2E000C40501 /* local.c in Sources */,
+				8CAC92BC1E58B26000BA2587 /* patch.c in Sources */,
 				F804C3A01B7BF2DD00C40501 /* trace.c in Sources */,
 				F804C24E1B7BF2CD00C40501 /* cache.c in Sources */,
 				F804C26C1B7BF2CE00C40501 /* config_cache.c in Sources */,
@@ -2087,7 +2168,6 @@
 				F804C2D01B7BF2D000C40501 /* ident.c in Sources */,
 				F804C2D21B7BF2D000C40501 /* ignore.c in Sources */,
 				F804C2B01B7BF2CF00C40501 /* filter.c in Sources */,
-				F804C27A1B7BF2CE00C40501 /* delta-apply.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2095,9 +2175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAC92971E58B14800BA2587 /* apply.c in Sources */,
 				F804C3D11B7BF2E300C40501 /* tsort.c in Sources */,
 				F804C2E71B7BF2D000C40501 /* merge.c in Sources */,
 				F804C2F31B7BF2D100C40501 /* mwindow.c in Sources */,
+				8CAC92B71E58B26000BA2587 /* patch_parse.c in Sources */,
 				F804C3511B7BF2D600C40501 /* refspec.c in Sources */,
 				F804C3231B7BF2D300C40501 /* pack.c in Sources */,
 				F804C3331B7BF2D400C40501 /* posix.c in Sources */,
@@ -2117,6 +2199,7 @@
 				F804C2631B7BF2CD00C40501 /* commit_list.c in Sources */,
 				F804C3C11B7BF2E100C40501 /* smart_pkt.c in Sources */,
 				F804C3D71B7BF2E400C40501 /* realpath.c in Sources */,
+				8CAC929F1E58B1DB00BA2587 /* diff_generate.c in Sources */,
 				F804C23F1B7BF2CD00C40501 /* blob.c in Sources */,
 				F804C3A71B7BF2DE00C40501 /* transport.c in Sources */,
 				F804C29F1B7BF2CE00C40501 /* errors.c in Sources */,
@@ -2132,14 +2215,17 @@
 				F804C3C91B7BF2E100C40501 /* tree-cache.c in Sources */,
 				F804C3031B7BF2D200C40501 /* object_api.c in Sources */,
 				F804C30B1B7BF2D200C40501 /* odb_mempack.c in Sources */,
+				8CAC92A31E58B1DB00BA2587 /* diff_parse.c in Sources */,
 				F804C25B1B7BF2CD00C40501 /* clone.c in Sources */,
 				F804C3651B7BF2D700C40501 /* revwalk.c in Sources */,
 				F804C2791B7BF2CE00C40501 /* date.c in Sources */,
 				F804C2FF1B7BF2D100C40501 /* object.c in Sources */,
 				F804C3111B7BF2D200C40501 /* oid.c in Sources */,
 				F804C3B11B7BF2DF00C40501 /* cred.c in Sources */,
+				8CAC92A91E58B22300BA2587 /* merge_driver.c in Sources */,
 				F804C3D31B7BF2E300C40501 /* map.c in Sources */,
 				F804C3C71B7BF2E100C40501 /* winhttp.c in Sources */,
+				8CAC92C11E58B27200BA2587 /* proxy.c in Sources */,
 				F804C3C31B7BF2E100C40501 /* smart_protocol.c in Sources */,
 				F804C3BD1B7BF2E000C40501 /* smart.c in Sources */,
 				F804C3371B7BF2D400C40501 /* pqueue.c in Sources */,
@@ -2160,7 +2246,6 @@
 				F804C3911B7BF2DB00C40501 /* sysdir.c in Sources */,
 				F804C26F1B7BF2CE00C40501 /* config_file.c in Sources */,
 				F804C24B1B7BF2CD00C40501 /* buffer.c in Sources */,
-				F804C2911B7BF2CE00C40501 /* diff_patch.c in Sources */,
 				F804C2D71B7BF2D000C40501 /* index.c in Sources */,
 				F804C2A51B7BF2CE00C40501 /* fetchhead.c in Sources */,
 				F804C22D1B7BF2CD00C40501 /* attr_file.c in Sources */,
@@ -2174,6 +2259,7 @@
 				F804C2B51B7BF2CF00C40501 /* fnmatch.c in Sources */,
 				F804C2731B7BF2CE00C40501 /* crlf.c in Sources */,
 				F8F708D21B7DB96700F227F2 /* indexer.c in Sources */,
+				8CAC92B31E58B26000BA2587 /* patch_generate.c in Sources */,
 				F804C2EF1B7BF2D100C40501 /* message.c in Sources */,
 				F804C3A91B7BF2DE00C40501 /* auth.c in Sources */,
 				F804C3A51B7BF2DE00C40501 /* transaction.c in Sources */,
@@ -2198,6 +2284,7 @@
 				F804C3411B7BF2D500C40501 /* refdb.c in Sources */,
 				F804C4391B7BF2FC00C40501 /* xutils.c in Sources */,
 				F804C3BB1B7BF2E000C40501 /* local.c in Sources */,
+				8CAC92BB1E58B26000BA2587 /* patch.c in Sources */,
 				F804C3A11B7BF2DD00C40501 /* trace.c in Sources */,
 				F804C24F1B7BF2CD00C40501 /* cache.c in Sources */,
 				F804C26D1B7BF2CE00C40501 /* config_cache.c in Sources */,
@@ -2224,7 +2311,6 @@
 				F804C2D11B7BF2D000C40501 /* ident.c in Sources */,
 				F804C2D31B7BF2D000C40501 /* ignore.c in Sources */,
 				F804C2B11B7BF2CF00C40501 /* filter.c in Sources */,
-				F804C27B1B7BF2CE00C40501 /* delta-apply.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

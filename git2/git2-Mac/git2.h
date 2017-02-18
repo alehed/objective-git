@@ -47,6 +47,7 @@ extern const unsigned char git2_MacVersionString[];
 #import <git2/pack.h>
 #import <git2/patch.h>
 #import <git2/pathspec.h>
+#import <git2/proxy.h>
 #import <git2/rebase.h>
 #import <git2/refdb.h>
 #import <git2/reflog.h>
