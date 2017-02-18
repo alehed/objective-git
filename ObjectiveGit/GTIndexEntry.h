@@ -61,7 +61,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (const git_index_entry *)git_index_entry __attribute__((objc_returns_inner_pointer));
 
 /// The entry's index. This may be nil if nil is passed in to -initWithGitIndexEntry:
-@property (nonatomic, strong, readonly) GTIndex *index;
+@property (nonatomic, strong, readonly, nullable) GTIndex *index;
 
 /// The repository-relative path for the entry.
 @property (nonatomic, readonly, copy) NSString *path;
@@ -86,8 +86,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GTObject (GTIndexEntry)
 
-+ (instancetype)objectWithIndexEntry:(GTIndexEntry *)treeEntry error:(NSError **)error;
-- (instancetype)initWithIndexEntry:(GTIndexEntry *)treeEntry error:(NSError **)error;
++ (nullable instancetype)objectWithIndexEntry:(GTIndexEntry *)indexEntry error:(NSError **)error;
+- (nullable instancetype)initWithIndexEntry:(GTIndexEntry *)indexEntry error:(NSError **)error;
 
 @end
 
