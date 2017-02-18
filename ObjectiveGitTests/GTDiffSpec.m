@@ -90,7 +90,7 @@ describe(@"GTDiff diffing", ^{
 		setupDiffFromCommitSHAsAndOptions(@"be0f001ff517a00b5b8e3c29ee6561e70f994e17", @"fe89ea0a8e70961b8a6344d9660c326d3f2eb0fe", nil);
 
 		expect(@(diff.deltaCount)).to(equal(@1));
-		expect(@([diff numberOfDeltasWithType:GTDiffFileDeltaModified])).to(equal(@1));
+		expect(@([diff numberOfDeltasWithType:GTDeltaTypeModified])).to(equal(@1));
 
 		[diff enumerateDeltasUsingBlock:^(GTDiffDelta *delta, BOOL *stop) {
 			NSError *error = nil;
@@ -101,7 +101,7 @@ describe(@"GTDiff diffing", ^{
 			expect(delta.oldFile.path).to(equal(@"TestAppWindowController.h"));
 			expect(delta.oldFile.path).to(equal(delta.newFile.path));
 			expect(@(delta.flags & GTDiffFileFlagBinaryMask)).to(equal(@(GTDiffFileFlagNotBinary)));
-			expect(@(delta.type)).to(equal(@(GTDiffFileDeltaModified)));
+			expect(@(delta.type)).to(equal(@(GTDeltaTypeModified)));
 
 			expect(patch.delta).to(beIdenticalTo(delta));
 			expect(@(patch.hunkCount)).to(equal(@1));
@@ -112,6 +112,10 @@ describe(@"GTDiff diffing", ^{
 			[patch enumerateHunksUsingBlock:^(GTDiffHunk *hunk, BOOL *stop) {
 				expect(hunk.header).to(equal(@"@@ -4,7 +4,7 @@"));
 				expect(@(hunk.lineCount)).to(equal(@8));
+				expect(@(hunk.oldStart)).to(equal(@4));
+				expect(@(hunk.oldLines)).to(equal(@7));
+				expect(@(hunk.newStart)).to(equal(@4));
+				expect(@(hunk.newLines)).to(equal(@7));
 
 				NSArray *expectedLines = @[ @"//",
 				@"//  Created by Joe Ricioppo on 9/29/10.",
@@ -151,7 +155,7 @@ describe(@"GTDiff diffing", ^{
 		expect(@(diff.deltaCount)).to(equal(@1));
 		[diff enumerateDeltasUsingBlock:^(GTDiffDelta *delta, BOOL *stop) {
 			expect(delta.newFile.path).to(equal(@"REAME")); //loltypo
-			expect(@(delta.type)).to(equal(@(GTDiffFileDeltaAdded)));
+			expect(@(delta.type)).to(equal(@(GTDeltaTypeAdded)));
 
 			*stop = YES;
 		}];
@@ -162,7 +166,7 @@ describe(@"GTDiff diffing", ^{
 
 		expect(@(diff.deltaCount)).to(equal(@1));
 		[diff enumerateDeltasUsingBlock:^(GTDiffDelta *delta, BOOL *stop) {
-			expect(@(delta.type)).to(equal(@(GTDiffFileDeltaDeleted)));
+			expect(@(delta.type)).to(equal(@(GTDeltaTypeDeleted)));
 
 			*stop = YES;
 		}];
@@ -189,7 +193,7 @@ describe(@"GTDiff diffing", ^{
 
 		expect(@(diff.deltaCount)).to(equal(@1));
 		[diff enumerateDeltasUsingBlock:^(GTDiffDelta *delta, BOOL *stop) {
-			expect(@(delta.type)).to(equal(@(GTDiffFileDeltaRenamed)));
+			expect(@(delta.type)).to(equal(@(GTDeltaTypeRenamed)));
 			expect(delta.oldFile.path).to(equal(@"README"));
 			expect(delta.newFile.path).to(equal(@"README_renamed"));
 

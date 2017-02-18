@@ -202,7 +202,7 @@ describe(@"adding files", ^{
 
 	NSDictionary *renamedOptions = @{ GTRepositoryStatusOptionsFlagsKey: @(GTRepositoryStatusFlagsIncludeIgnored | GTRepositoryStatusFlagsIncludeUntracked | GTRepositoryStatusFlagsRecurseUntrackedDirectories | GTRepositoryStatusFlagsRenamesHeadToIndex | GTRepositoryStatusFlagsIncludeUnmodified) };
 
-	BOOL (^fileStatusEqualsExpected)(NSString *filename, GTStatusDeltaStatus headToIndexStatus, GTStatusDeltaStatus indexToWorkingDirectoryStatus) = ^(NSString *filename, GTStatusDeltaStatus headToIndexStatus, GTStatusDeltaStatus indexToWorkingDirectoryStatus) {
+	BOOL (^fileStatusEqualsExpected)(NSString *filename, GTDeltaType headToIndexStatus, GTDeltaType indexToWorkingDirectoryStatus) = ^(NSString *filename, GTDeltaType headToIndexStatus, GTDeltaType indexToWorkingDirectoryStatus) {
 		return [index.repository enumerateFileStatusWithOptions:renamedOptions error:NULL usingBlock:^(GTStatusDelta *headToIndex, GTStatusDelta *indexToWorkingDirectory, BOOL *stop) {
 			if (![headToIndex.newFile.path isEqualToString:filename]) return;
 			expect(@(headToIndex.status)).to(equal(@(headToIndexStatus)));
@@ -230,25 +230,25 @@ describe(@"adding files", ^{
 	it(@"it preserves decomposed Unicode in index paths with precomposeunicode disabled", ^{
 		NSString *decomposedFilename = [filename decomposedStringWithCanonicalMapping];
 		GTIndexEntry *entry = [index entryWithPath:decomposedFilename error:NULL];
-		expect(@(fileStatusEqualsExpected(entry.path, GTStatusDeltaStatusUnmodified, GTStatusDeltaStatusUnmodified))).to(beTruthy());
+		expect(@(fileStatusEqualsExpected(entry.path, GTDeltaTypeUnmodified, GTDeltaTypeUnmodified))).to(beTruthy());
 
 		expect(@([[NSFileManager defaultManager] moveItemAtURL:fileURL toURL:renamedFileURL error:NULL])).to(beTruthy());
 
 		entry = [index entryWithPath:decomposedFilename error:NULL];
-		expect(@(fileStatusEqualsExpected(entry.path, GTStatusDeltaStatusUnmodified, GTStatusDeltaStatusDeleted))).to(beTruthy());
+		expect(@(fileStatusEqualsExpected(entry.path, GTDeltaTypeUnmodified, GTDeltaTypeDeleted))).to(beTruthy());
 
 		[index removeFile:filename error:NULL];
 		[index addFile:renamedFilename error:NULL];
 		[index write:NULL];
 
 		entry = [index entryWithPath:[renamedFilename decomposedStringWithCanonicalMapping] error:NULL];
-		expect(@(fileStatusEqualsExpected(entry.path, GTStatusDeltaStatusRenamed, GTStatusDeltaStatusUnmodified))).to(beTruthy());
+		expect(@(fileStatusEqualsExpected(entry.path, GTDeltaTypeRenamed, GTDeltaTypeUnmodified))).to(beTruthy());
 	});
 
 	it(@"it preserves precomposed Unicode in index paths with precomposeunicode enabled", ^{
 		GTIndexEntry *fileEntry = [index entryWithPath:[filename decomposedStringWithCanonicalMapping] error:NULL];
 		expect(fileEntry).notTo(beNil());
-		expect(@(fileStatusEqualsExpected(fileEntry.path, GTStatusDeltaStatusUnmodified, GTStatusDeltaStatusUnmodified))).to(beTruthy());
+		expect(@(fileStatusEqualsExpected(fileEntry.path, GTDeltaTypeUnmodified, GTDeltaTypeUnmodified))).to(beTruthy());
 
 		[configuration setBool:true forKey:@"core.precomposeunicode"];
 		expect(@([configuration boolForKey:@"core.precomposeunicode"])).to(beTruthy());
@@ -256,7 +256,7 @@ describe(@"adding files", ^{
 		GTIndexEntry *decomposedFileEntry = [index entryWithPath:[filename decomposedStringWithCanonicalMapping] error:NULL];
 		expect(decomposedFileEntry).notTo(beNil());
 		// This check will fail if GIT_USE_ICONV is not enabled
-		expect(@(fileStatusEqualsExpected(decomposedFileEntry.path, GTStatusDeltaStatusUnmodified, GTStatusDeltaStatusDeleted))).to(beTruthy());
+		expect(@(fileStatusEqualsExpected(decomposedFileEntry.path, GTDeltaTypeUnmodified, GTDeltaTypeDeleted))).to(beTruthy());
 
 		expect(@([[NSFileManager defaultManager] moveItemAtURL:fileURL toURL:renamedFileURL error:NULL])).to(beTruthy());
 
@@ -265,7 +265,7 @@ describe(@"adding files", ^{
 
 		decomposedFileEntry = [index entryWithPath:[filename decomposedStringWithCanonicalMapping] error:NULL];
 		expect(decomposedFileEntry).notTo(beNil());
-		expect(@(fileStatusEqualsExpected(decomposedFileEntry.path, GTStatusDeltaStatusUnmodified, GTStatusDeltaStatusDeleted))).to(beTruthy());
+		expect(@(fileStatusEqualsExpected(decomposedFileEntry.path, GTDeltaTypeUnmodified, GTDeltaTypeDeleted))).to(beTruthy());
 
 		[index removeFile:filename error:NULL];
 		[index addFile:renamedFilename error:NULL];
@@ -273,7 +273,7 @@ describe(@"adding files", ^{
 
 		GTIndexEntry *precomposedRenamedFileEntry = [index entryWithPath:renamedFilename error:NULL];
 		expect(precomposedRenamedFileEntry).notTo(beNil());
-		expect(@(fileStatusEqualsExpected(precomposedFileEntry.path, GTStatusDeltaStatusRenamed, GTStatusDeltaStatusUntracked))).to(beTruthy());
+		expect(@(fileStatusEqualsExpected(precomposedFileEntry.path, GTDeltaTypeRenamed, GTDeltaTypeUntracked))).to(beTruthy());
 	});
 });
 
