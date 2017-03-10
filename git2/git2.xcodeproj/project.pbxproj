@@ -69,6 +69,47 @@
 		8CAC92C71E58B2F000BA2587 /* pthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92C51E58B2F000BA2587 /* pthread.h */; };
 		8CAC92C91E58B33400BA2587 /* proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92C81E58B33400BA2587 /* proxy.h */; };
 		8CAC92CA1E58B33400BA2587 /* proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAC92C81E58B33400BA2587 /* proxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CCB9B361E73058400785718 /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B241E73058400785718 /* commit.h */; };
+		8CCB9B371E73058400785718 /* commit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B241E73058400785718 /* commit.h */; };
+		8CCB9B381E73058400785718 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B251E73058400785718 /* config.h */; };
+		8CCB9B391E73058400785718 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B251E73058400785718 /* config.h */; };
+		8CCB9B3A1E73058400785718 /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B261E73058400785718 /* diff.h */; };
+		8CCB9B3B1E73058400785718 /* diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B261E73058400785718 /* diff.h */; };
+		8CCB9B3C1E73058400785718 /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B271E73058400785718 /* filter.h */; };
+		8CCB9B3D1E73058400785718 /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B271E73058400785718 /* filter.h */; };
+		8CCB9B3E1E73058400785718 /* hashsig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B281E73058400785718 /* hashsig.h */; };
+		8CCB9B3F1E73058400785718 /* hashsig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B281E73058400785718 /* hashsig.h */; };
+		8CCB9B401E73058400785718 /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B291E73058400785718 /* index.h */; };
+		8CCB9B411E73058400785718 /* index.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B291E73058400785718 /* index.h */; };
+		8CCB9B421E73058400785718 /* mempack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2A1E73058400785718 /* mempack.h */; };
+		8CCB9B431E73058400785718 /* mempack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2A1E73058400785718 /* mempack.h */; };
+		8CCB9B441E73058400785718 /* merge.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2B1E73058400785718 /* merge.h */; };
+		8CCB9B451E73058400785718 /* merge.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2B1E73058400785718 /* merge.h */; };
+		8CCB9B461E73058400785718 /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2C1E73058400785718 /* odb_backend.h */; };
+		8CCB9B471E73058400785718 /* odb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2C1E73058400785718 /* odb_backend.h */; };
+		8CCB9B481E73058400785718 /* openssl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2D1E73058400785718 /* openssl.h */; };
+		8CCB9B491E73058400785718 /* openssl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2D1E73058400785718 /* openssl.h */; };
+		8CCB9B4A1E73058400785718 /* refdb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2E1E73058400785718 /* refdb_backend.h */; };
+		8CCB9B4B1E73058400785718 /* refdb_backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2E1E73058400785718 /* refdb_backend.h */; };
+		8CCB9B4C1E73058400785718 /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2F1E73058400785718 /* reflog.h */; };
+		8CCB9B4D1E73058400785718 /* reflog.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B2F1E73058400785718 /* reflog.h */; };
+		8CCB9B4E1E73058400785718 /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B301E73058400785718 /* refs.h */; };
+		8CCB9B4F1E73058400785718 /* refs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B301E73058400785718 /* refs.h */; };
+		8CCB9B501E73058400785718 /* remote.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B311E73058400785718 /* remote.h */; };
+		8CCB9B511E73058400785718 /* remote.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B311E73058400785718 /* remote.h */; };
+		8CCB9B521E73058400785718 /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B321E73058400785718 /* repository.h */; };
+		8CCB9B531E73058400785718 /* repository.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B321E73058400785718 /* repository.h */; };
+		8CCB9B541E73058400785718 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B331E73058400785718 /* stream.h */; };
+		8CCB9B551E73058400785718 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B331E73058400785718 /* stream.h */; };
+		8CCB9B561E73058400785718 /* time.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B341E73058400785718 /* time.h */; };
+		8CCB9B571E73058400785718 /* time.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B341E73058400785718 /* time.h */; };
+		8CCB9B581E73058400785718 /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B351E73058400785718 /* transport.h */; };
+		8CCB9B591E73058400785718 /* transport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B351E73058400785718 /* transport.h */; };
+		8CCB9B5A1E7311F200785718 /* tsort.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1E71B7BF2CD00C40501 /* tsort.c */; };
+		8CCB9B5C1E7318CC00785718 /* varint.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB9B5B1E7318CC00785718 /* varint.c */; };
+		8CCB9B5D1E7318CC00785718 /* varint.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB9B5B1E7318CC00785718 /* varint.c */; };
+		8CCB9B5F1E7318D700785718 /* varint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B5E1E7318D700785718 /* varint.h */; };
+		8CCB9B601E7318D700785718 /* varint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB9B5E1E7318D700785718 /* varint.h */; };
 		F804C2221B7BF2CD00C40501 /* annotated_commit.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C10E1B7BF2CC00C40501 /* annotated_commit.c */; };
 		F804C2231B7BF2CD00C40501 /* annotated_commit.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C10E1B7BF2CC00C40501 /* annotated_commit.c */; };
 		F804C2241B7BF2CD00C40501 /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C10F1B7BF2CC00C40501 /* annotated_commit.h */; };
@@ -483,7 +524,6 @@
 		F804C3CD1B7BF2E200C40501 /* tree.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1E51B7BF2CD00C40501 /* tree.c */; };
 		F804C3CE1B7BF2E200C40501 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C1E61B7BF2CD00C40501 /* tree.h */; };
 		F804C3CF1B7BF2E200C40501 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = F804C1E61B7BF2CD00C40501 /* tree.h */; };
-		F804C3D01B7BF2E300C40501 /* tsort.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1E71B7BF2CD00C40501 /* tsort.c */; };
 		F804C3D11B7BF2E300C40501 /* tsort.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1E71B7BF2CD00C40501 /* tsort.c */; };
 		F804C3D21B7BF2E300C40501 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1E91B7BF2CD00C40501 /* map.c */; };
 		F804C3D31B7BF2E300C40501 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = F804C1E91B7BF2CD00C40501 /* map.c */; };
@@ -539,7 +579,6 @@
 		F82FC7391B87CC0A000F2896 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82FC7381B87CC0A000F2896 /* CoreFoundation.framework */; };
 		F834882C1B7BF4D900A5B932 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
 		F834882D1B7BF4E100A5B932 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E7E1B7BB79E00021BDF /* git2.h */; };
-		F83488601B7BFD4500A5B932 /* sys in Headers */ = {isa = PBXBuildFile; fileRef = F834885C1B7BFC9800A5B932 /* sys */; settings = {ATTRIBUTES = (Public, ); }; };
 		F834888F1B7D547D00A5B932 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = F834886B1B7D547D00A5B932 /* http_parser.c */; };
 		F83488901B7D547D00A5B932 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = F834886B1B7D547D00A5B932 /* http_parser.c */; };
 		F83488911B7D547D00A5B932 /* http_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = F834886C1B7D547D00A5B932 /* http_parser.h */; };
@@ -548,7 +587,6 @@
 		F85B3CFA1CAE0BDA00A1A225 /* ssh.h in Headers */ = {isa = PBXBuildFile; fileRef = F85B3CF91CAE0BDA00A1A225 /* ssh.h */; };
 		F85B3CFD1CAE0C1900A1A225 /* idxmap.h in Headers */ = {isa = PBXBuildFile; fileRef = F85B3CFB1CAE0C1900A1A225 /* idxmap.h */; };
 		F85B3CFE1CAE0C1900A1A225 /* transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = F85B3CFC1CAE0C1900A1A225 /* transaction.h */; };
-		F85B3D151CAE163900A1A225 /* sys in Headers */ = {isa = PBXBuildFile; fileRef = F834885C1B7BFC9800A5B932 /* sys */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8B37E0C1B83611C003CF5F7 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B37E0B1B83611C003CF5F7 /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8B37E0E1B836122003CF5F7 /* git2.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B37E0D1B836122003CF5F7 /* git2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D67EB81B7BB7DA00021BDF /* annotated_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D67E841B7BB7DA00021BDF /* annotated_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -715,6 +753,26 @@
 		8CAC92C51E58B2F000BA2587 /* pthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pthread.h; sourceTree = "<group>"; };
 		8CAC92C81E58B33400BA2587 /* proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proxy.h; path = ../External/libgit2/include/git2/proxy.h; sourceTree = "<group>"; };
 		8CAC92CB1E58B59800BA2587 /* libpthread.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpthread.tbd; path = usr/lib/libpthread.tbd; sourceTree = SDKROOT; };
+		8CCB9B241E73058400785718 /* commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commit.h; sourceTree = "<group>"; };
+		8CCB9B251E73058400785718 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8CCB9B261E73058400785718 /* diff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diff.h; sourceTree = "<group>"; };
+		8CCB9B271E73058400785718 /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		8CCB9B281E73058400785718 /* hashsig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashsig.h; sourceTree = "<group>"; };
+		8CCB9B291E73058400785718 /* index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = index.h; sourceTree = "<group>"; };
+		8CCB9B2A1E73058400785718 /* mempack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mempack.h; sourceTree = "<group>"; };
+		8CCB9B2B1E73058400785718 /* merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = merge.h; sourceTree = "<group>"; };
+		8CCB9B2C1E73058400785718 /* odb_backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = odb_backend.h; sourceTree = "<group>"; };
+		8CCB9B2D1E73058400785718 /* openssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openssl.h; sourceTree = "<group>"; };
+		8CCB9B2E1E73058400785718 /* refdb_backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = refdb_backend.h; sourceTree = "<group>"; };
+		8CCB9B2F1E73058400785718 /* reflog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reflog.h; sourceTree = "<group>"; };
+		8CCB9B301E73058400785718 /* refs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = refs.h; sourceTree = "<group>"; };
+		8CCB9B311E73058400785718 /* remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = remote.h; sourceTree = "<group>"; };
+		8CCB9B321E73058400785718 /* repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = repository.h; sourceTree = "<group>"; };
+		8CCB9B331E73058400785718 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		8CCB9B341E73058400785718 /* time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = time.h; sourceTree = "<group>"; };
+		8CCB9B351E73058400785718 /* transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transport.h; sourceTree = "<group>"; };
+		8CCB9B5B1E7318CC00785718 /* varint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = varint.c; sourceTree = "<group>"; };
+		8CCB9B5E1E7318D700785718 /* varint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = varint.h; sourceTree = "<group>"; };
 		F804C10E1B7BF2CC00C40501 /* annotated_commit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = annotated_commit.c; sourceTree = "<group>"; };
 		F804C10F1B7BF2CC00C40501 /* annotated_commit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = annotated_commit.h; sourceTree = "<group>"; };
 		F804C1101B7BF2CC00C40501 /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
@@ -951,7 +1009,6 @@
 		F82FC7341B87CBD6000F2896 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		F82FC7361B87CC05000F2896 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		F82FC7381B87CC0A000F2896 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		F834885C1B7BFC9800A5B932 /* sys */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sys; path = ../External/libgit2/include/git2/sys; sourceTree = "<group>"; };
 		F83488611B7BFDD400A5B932 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F83488641B7BFF7200A5B932 /* git2.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = git2.modulemap; sourceTree = "<group>"; };
 		F834886B1B7D547D00A5B932 /* http_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http_parser.c; sourceTree = "<group>"; };
@@ -1064,6 +1121,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CCB9B231E73058400785718 /* sys */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB9B241E73058400785718 /* commit.h */,
+				8CCB9B251E73058400785718 /* config.h */,
+				8CCB9B261E73058400785718 /* diff.h */,
+				8CCB9B271E73058400785718 /* filter.h */,
+				8CCB9B281E73058400785718 /* hashsig.h */,
+				8CCB9B291E73058400785718 /* index.h */,
+				8CCB9B2A1E73058400785718 /* mempack.h */,
+				8CCB9B2B1E73058400785718 /* merge.h */,
+				8CCB9B2C1E73058400785718 /* odb_backend.h */,
+				8CCB9B2D1E73058400785718 /* openssl.h */,
+				8CCB9B2E1E73058400785718 /* refdb_backend.h */,
+				8CCB9B2F1E73058400785718 /* reflog.h */,
+				8CCB9B301E73058400785718 /* refs.h */,
+				8CCB9B311E73058400785718 /* remote.h */,
+				8CCB9B321E73058400785718 /* repository.h */,
+				8CCB9B331E73058400785718 /* stream.h */,
+				8CCB9B341E73058400785718 /* time.h */,
+				8CCB9B351E73058400785718 /* transport.h */,
+			);
+			name = sys;
+			path = ../External/libgit2/include/git2/sys;
+			sourceTree = "<group>";
+		};
 		F804C10D1B7BF2CC00C40501 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -1172,8 +1255,8 @@
 				F804C1761B7BF2CD00C40501 /* message.h */,
 				F804C1771B7BF2CD00C40501 /* mwindow.c */,
 				F804C1781B7BF2CD00C40501 /* mwindow.h */,
-				F804C1791B7BF2CD00C40501 /* netops.c */,
 				F804C17A1B7BF2CD00C40501 /* netops.h */,
+				F804C1791B7BF2CD00C40501 /* netops.c */,
 				F804C17B1B7BF2CD00C40501 /* notes.c */,
 				F804C17C1B7BF2CD00C40501 /* notes.h */,
 				F804C17F1B7BF2CD00C40501 /* object_api.c */,
@@ -1280,6 +1363,8 @@
 				F804C1EC1B7BF2CD00C40501 /* userdiff.h */,
 				F804C1ED1B7BF2CD00C40501 /* util.c */,
 				F804C1EE1B7BF2CD00C40501 /* util.h */,
+				8CCB9B5B1E7318CC00785718 /* varint.c */,
+				8CCB9B5E1E7318D700785718 /* varint.h */,
 				F804C1EF1B7BF2CD00C40501 /* vector.c */,
 				F804C1F01B7BF2CD00C40501 /* vector.h */,
 				F804C2101B7BF2CD00C40501 /* xdiff */,
@@ -1488,7 +1573,7 @@
 				F8D67EB41B7BB7DA00021BDF /* status.h */,
 				F8D67EB61B7BB7DA00021BDF /* strarray.h */,
 				F8D67EB71B7BB7DA00021BDF /* submodule.h */,
-				F834885C1B7BFC9800A5B932 /* sys */,
+				8CCB9B231E73058400785718 /* sys */,
 				F8D67F201B7BB7E800021BDF /* tag.h */,
 				F8D67F211B7BB7E800021BDF /* trace.h */,
 				F8D67F221B7BB7E800021BDF /* transaction.h */,
@@ -1528,8 +1613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B37E0C1B83611C003CF5F7 /* git2.h in Headers */,
-				8CAC92CA1E58B33400BA2587 /* proxy.h in Headers */,
-				F85B3D151CAE163900A1A225 /* sys in Headers */,
+				8CCB9B451E73058400785718 /* merge.h in Headers */,
 				F804C4361B7BF2FB00C40501 /* xtypes.h in Headers */,
 				F804C3061B7BF2D200C40501 /* odb.h in Headers */,
 				F804C43A1B7BF2FC00C40501 /* xutils.h in Headers */,
@@ -1540,6 +1624,8 @@
 				F8D67EBA1B7BB7DA00021BDF /* attr.h in Headers */,
 				F804C26A1B7BF2CE00C40501 /* config.h in Headers */,
 				F8D67EBC1B7BB7DA00021BDF /* blame.h in Headers */,
+				8CCB9B3B1E73058400785718 /* diff.h in Headers */,
+				8CAC92CA1E58B33400BA2587 /* proxy.h in Headers */,
 				F8D67EBE1B7BB7DA00021BDF /* blob.h in Headers */,
 				F8D67EC01B7BB7DA00021BDF /* branch.h in Headers */,
 				F804C2441B7BF2CD00C40501 /* branch.h in Headers */,
@@ -1556,12 +1642,14 @@
 				F8D67EC81B7BB7DA00021BDF /* clone.h in Headers */,
 				F804C2341B7BF2CD00C40501 /* bitvec.h in Headers */,
 				F804C2561B7BF2CD00C40501 /* checkout.h in Headers */,
+				8CCB9B411E73058400785718 /* index.h in Headers */,
 				F8D67ECA1B7BB7DA00021BDF /* commit.h in Headers */,
 				F804C3521B7BF2D600C40501 /* refspec.h in Headers */,
 				F804C4341B7BF2FA00C40501 /* xprepare.h in Headers */,
 				F804C3461B7BF2D500C40501 /* refdb_fs.h in Headers */,
 				F804C3AE1B7BF2DE00C40501 /* auth_negotiate.h in Headers */,
 				F804C39E1B7BF2DD00C40501 /* tls_stream.h in Headers */,
+				8CCB9B531E73058400785718 /* repository.h in Headers */,
 				F804C3661B7BF2D700C40501 /* revwalk.h in Headers */,
 				F804C29C1B7BF2CE00C40501 /* diff_xdiff.h in Headers */,
 				F804C2F81B7BF2D100C40501 /* netops.h in Headers */,
@@ -1572,6 +1660,7 @@
 				F804C2241B7BF2CD00C40501 /* annotated_commit.h in Headers */,
 				F804C3741B7BF2D800C40501 /* socket_stream.h in Headers */,
 				F804C3CE1B7BF2E200C40501 /* tree.h in Headers */,
+				8CCB9B491E73058400785718 /* openssl.h in Headers */,
 				8CAC929A1E58B14800BA2587 /* apply.h in Headers */,
 				F8D67ECE1B7BB7DA00021BDF /* config.h in Headers */,
 				F8D67ED01B7BB7DA00021BDF /* cred_helpers.h in Headers */,
@@ -1583,6 +1672,7 @@
 				F8D67ED81B7BB7DA00021BDF /* filter.h in Headers */,
 				F804C2A61B7BF2CE00C40501 /* fetchhead.h in Headers */,
 				F804C2CC1B7BF2D000C40501 /* hash.h in Headers */,
+				8CCB9B4D1E73058400785718 /* reflog.h in Headers */,
 				F804C25C1B7BF2CD00C40501 /* clone.h in Headers */,
 				F8D67EDA1B7BB7DA00021BDF /* global.h in Headers */,
 				F804C3961B7BF2DC00C40501 /* tag.h in Headers */,
@@ -1601,7 +1691,9 @@
 				F804C2B61B7BF2CF00C40501 /* fnmatch.h in Headers */,
 				F8D67EE61B7BB7DA00021BDF /* merge.h in Headers */,
 				F804C22E1B7BF2CD00C40501 /* attr_file.h in Headers */,
+				8CCB9B4F1E73058400785718 /* refs.h in Headers */,
 				F804C3781B7BF2D900C40501 /* sortedcache.h in Headers */,
+				8CCB9B4B1E73058400785718 /* refdb_backend.h in Headers */,
 				F804C2601B7BF2CD00C40501 /* commit.h in Headers */,
 				F804C3561B7BF2D600C40501 /* remote.h in Headers */,
 				F804C3001B7BF2D100C40501 /* object.h in Headers */,
@@ -1612,13 +1704,16 @@
 				F804C2C21B7BF2CF00C40501 /* hash_generic.h in Headers */,
 				F85B3CFA1CAE0BDA00A1A225 /* ssh.h in Headers */,
 				F804C36C1B7BF2D700C40501 /* sha1_lookup.h in Headers */,
+				8CCB9B371E73058400785718 /* commit.h in Headers */,
 				F8D67EEE1B7BB7DA00021BDF /* object.h in Headers */,
 				F804C2A21B7BF2CE00C40501 /* fetch.h in Headers */,
 				F8D67EF21B7BB7DA00021BDF /* odb.h in Headers */,
 				F804C2D41B7BF2D000C40501 /* ignore.h in Headers */,
 				F804C2E21B7BF2D000C40501 /* khash.h in Headers */,
 				8CAC92BA1E58B26000BA2587 /* patch_parse.h in Headers */,
+				8CCB9B551E73058400785718 /* stream.h in Headers */,
 				F804C2C41B7BF2CF00C40501 /* hash_openssl.h in Headers */,
+				8CCB9B511E73058400785718 /* remote.h in Headers */,
 				F8D67EF01B7BB7DA00021BDF /* odb_backend.h in Headers */,
 				F804C2E81B7BF2D100C40501 /* merge.h in Headers */,
 				F834882D1B7BF4E100A5B932 /* git2.h in Headers */,
@@ -1630,6 +1725,7 @@
 				F804C42C1B7BF2F800C40501 /* xmacros.h in Headers */,
 				F8D67EF81B7BB7DA00021BDF /* pack.h in Headers */,
 				F804C2AA1B7BF2CE00C40501 /* filebuf.h in Headers */,
+				8CCB9B591E73058400785718 /* transport.h in Headers */,
 				F804C38A1B7BF2DA00C40501 /* strnlen.h in Headers */,
 				F8D67EFA1B7BB7DA00021BDF /* patch.h in Headers */,
 				F804C2F41B7BF2D100C40501 /* mwindow.h in Headers */,
@@ -1650,7 +1746,9 @@
 				F8D67F101B7BB7DA00021BDF /* revparse.h in Headers */,
 				F804C2B21B7BF2CF00C40501 /* filter.h in Headers */,
 				F8D67EFE1B7BB7DA00021BDF /* rebase.h in Headers */,
+				8CCB9B471E73058400785718 /* odb_backend.h in Headers */,
 				F804C2641B7BF2CD00C40501 /* commit_list.h in Headers */,
+				8CCB9B571E73058400785718 /* time.h in Headers */,
 				F804C3161B7BF2D200C40501 /* oidarray.h in Headers */,
 				F804C30E1B7BF2D200C40501 /* offmap.h in Headers */,
 				F804C3A21B7BF2DD00C40501 /* trace.h in Headers */,
@@ -1659,6 +1757,7 @@
 				F804C3581B7BF2D600C40501 /* repo_template.h in Headers */,
 				F8D67F061B7BB7DA00021BDF /* refspec.h in Headers */,
 				F804C33C1B7BF2D400C40501 /* push.h in Headers */,
+				8CCB9B3F1E73058400785718 /* hashsig.h in Headers */,
 				F8D67F0C1B7BB7DA00021BDF /* reset.h in Headers */,
 				8CAC92B61E58B26000BA2587 /* patch_generate.h in Headers */,
 				F804C4221B7BF2F500C40501 /* xdiffi.h in Headers */,
@@ -1668,11 +1767,13 @@
 				F804C3D81B7BF2E400C40501 /* userdiff.h in Headers */,
 				F804C2801B7BF2CE00C40501 /* delta.h in Headers */,
 				F8D67F121B7BB7DA00021BDF /* revwalk.h in Headers */,
+				8CCB9B431E73058400785718 /* mempack.h in Headers */,
 				F804C4261B7BF2F600C40501 /* xemit.h in Headers */,
 				F804C3241B7BF2D300C40501 /* pack.h in Headers */,
 				F804C24C1B7BF2CD00C40501 /* buffer.h in Headers */,
 				F8D67F181B7BB7DA00021BDF /* status.h in Headers */,
 				F8D67F141B7BB7DA00021BDF /* signature.h in Headers */,
+				8CCB9B3D1E73058400785718 /* filter.h in Headers */,
 				F8D67F1C1B7BB7DA00021BDF /* strarray.h in Headers */,
 				F804C2AE1B7BF2CF00C40501 /* fileops.h in Headers */,
 				F8D67F161B7BB7DA00021BDF /* stash.h in Headers */,
@@ -1691,6 +1792,7 @@
 				F804C3381B7BF2D400C40501 /* pqueue.h in Headers */,
 				F804C31C1B7BF2D300C40501 /* openssl_stream.h in Headers */,
 				F85B3CFD1CAE0C1900A1A225 /* idxmap.h in Headers */,
+				8CCB9B601E7318D700785718 /* varint.h in Headers */,
 				F804C3821B7BF2D900C40501 /* stransport_stream.h in Headers */,
 				F8D67F2D1B7BB7E800021BDF /* transport.h in Headers */,
 				F804C3BE1B7BF2E000C40501 /* smart.h in Headers */,
@@ -1699,6 +1801,7 @@
 				8CAC92AC1E58B22300BA2587 /* merge_driver.h in Headers */,
 				F804C43E1B7BF2FD00C40501 /* zstream.h in Headers */,
 				F804C2861B7BF2CE00C40501 /* diff.h in Headers */,
+				8CCB9B391E73058400785718 /* config.h in Headers */,
 				F804C3921B7BF2DB00C40501 /* sysdir.h in Headers */,
 				F804C23C1B7BF2CD00C40501 /* blame_git.h in Headers */,
 				F804C3121B7BF2D200C40501 /* oid.h in Headers */,
@@ -1716,9 +1819,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B37E0E1B836122003CF5F7 /* git2.h in Headers */,
-				F83488601B7BFD4500A5B932 /* sys in Headers */,
 				F804C3431B7BF2D500C40501 /* refdb.h in Headers */,
 				F804C4371B7BF2FB00C40501 /* xtypes.h in Headers */,
+				8CCB9B541E73058400785718 /* stream.h in Headers */,
 				8CAC92B51E58B26000BA2587 /* patch_generate.h in Headers */,
 				F804C3071B7BF2D200C40501 /* odb.h in Headers */,
 				F804C43B1B7BF2FC00C40501 /* xutils.h in Headers */,
@@ -1741,10 +1844,13 @@
 				F804C34B1B7BF2D500C40501 /* reflog.h in Headers */,
 				F804C3711B7BF2D800C40501 /* signature.h in Headers */,
 				F804C2511B7BF2CD00C40501 /* cache.h in Headers */,
+				8CCB9B5F1E7318D700785718 /* varint.h in Headers */,
 				F804C22B1B7BF2CD00C40501 /* attr.h in Headers */,
 				F8D67F0B1B7BB7DA00021BDF /* repository.h in Headers */,
 				F804C2351B7BF2CD00C40501 /* bitvec.h in Headers */,
+				8CCB9B401E73058400785718 /* index.h in Headers */,
 				F804C2571B7BF2CD00C40501 /* checkout.h in Headers */,
+				8CCB9B481E73058400785718 /* openssl.h in Headers */,
 				F8D67ED31B7BB7DA00021BDF /* describe.h in Headers */,
 				F804C3531B7BF2D600C40501 /* refspec.h in Headers */,
 				F804C4351B7BF2FA00C40501 /* xprepare.h in Headers */,
@@ -1752,9 +1858,12 @@
 				F804C3AF1B7BF2DE00C40501 /* auth_negotiate.h in Headers */,
 				F804C39F1B7BF2DD00C40501 /* tls_stream.h in Headers */,
 				F804C3671B7BF2D700C40501 /* revwalk.h in Headers */,
+				8CCB9B461E73058400785718 /* odb_backend.h in Headers */,
 				8CAC92C61E58B2F000BA2587 /* pthread.h in Headers */,
 				F804C29D1B7BF2CE00C40501 /* diff_xdiff.h in Headers */,
+				8CCB9B501E73058400785718 /* remote.h in Headers */,
 				F804C2F91B7BF2D100C40501 /* netops.h in Headers */,
+				8CCB9B581E73058400785718 /* transport.h in Headers */,
 				F804C3891B7BF2DA00C40501 /* strmap.h in Headers */,
 				8CAC92A11E58B1DB00BA2587 /* diff_generate.h in Headers */,
 				F8D67EDF1B7BB7DA00021BDF /* ignore.h in Headers */,
@@ -1768,6 +1877,7 @@
 				F8D67F0D1B7BB7DA00021BDF /* reset.h in Headers */,
 				F8D67EEF1B7BB7DA00021BDF /* object.h in Headers */,
 				F8D67ED11B7BB7DA00021BDF /* cred_helpers.h in Headers */,
+				8CCB9B561E73058400785718 /* time.h in Headers */,
 				8CAC92A51E58B1DB00BA2587 /* diff_parse.h in Headers */,
 				F8D67EC71B7BB7DA00021BDF /* cherrypick.h in Headers */,
 				F8D67F171B7BB7DA00021BDF /* stash.h in Headers */,
@@ -1804,12 +1914,14 @@
 				F804C2C31B7BF2CF00C40501 /* hash_generic.h in Headers */,
 				F804C36D1B7BF2D700C40501 /* sha1_lookup.h in Headers */,
 				F8D67F191B7BB7DA00021BDF /* status.h in Headers */,
+				8CCB9B521E73058400785718 /* repository.h in Headers */,
 				F804C2A31B7BF2CE00C40501 /* fetch.h in Headers */,
 				F8D67F301B7BB7E800021BDF /* tree.h in Headers */,
 				F804C2D51B7BF2D000C40501 /* ignore.h in Headers */,
 				F804C2E31B7BF2D000C40501 /* khash.h in Headers */,
 				8CAC92C91E58B33400BA2587 /* proxy.h in Headers */,
 				F804C2C51B7BF2CF00C40501 /* hash_openssl.h in Headers */,
+				8CCB9B3A1E73058400785718 /* diff.h in Headers */,
 				F8D67EC51B7BB7DA00021BDF /* checkout.h in Headers */,
 				F804C2E91B7BF2D100C40501 /* merge.h in Headers */,
 				F804C3E11B7BF2E500C40501 /* vector.h in Headers */,
@@ -1820,6 +1932,7 @@
 				F804C42D1B7BF2F800C40501 /* xmacros.h in Headers */,
 				F8D67ECD1B7BB7DA00021BDF /* common.h in Headers */,
 				F804C2AB1B7BF2CE00C40501 /* filebuf.h in Headers */,
+				8CCB9B4A1E73058400785718 /* refdb_backend.h in Headers */,
 				F804C38B1B7BF2DA00C40501 /* strnlen.h in Headers */,
 				F8D67ECF1B7BB7DA00021BDF /* config.h in Headers */,
 				F804C2F51B7BF2D100C40501 /* mwindow.h in Headers */,
@@ -1827,6 +1940,7 @@
 				F804C35D1B7BF2D700C40501 /* repository.h in Headers */,
 				F804C2D91B7BF2D000C40501 /* index.h in Headers */,
 				F804C3B31B7BF2DF00C40501 /* cred.h in Headers */,
+				8CCB9B4E1E73058400785718 /* refs.h in Headers */,
 				F804C2391B7BF2CD00C40501 /* blame.h in Headers */,
 				F804C3851B7BF2DA00C40501 /* stream.h in Headers */,
 				F8D67EF31B7BB7DA00021BDF /* odb.h in Headers */,
@@ -1840,6 +1954,7 @@
 				F8D67F011B7BB7DA00021BDF /* refdb.h in Headers */,
 				F804C2651B7BF2CD00C40501 /* commit_list.h in Headers */,
 				F804C3171B7BF2D200C40501 /* oidarray.h in Headers */,
+				8CCB9B3C1E73058400785718 /* filter.h in Headers */,
 				F804C30F1B7BF2D200C40501 /* offmap.h in Headers */,
 				F804C3A31B7BF2DD00C40501 /* trace.h in Headers */,
 				F8D67EBD1B7BB7DA00021BDF /* blame.h in Headers */,
@@ -1853,14 +1968,18 @@
 				F8D67ECB1B7BB7DA00021BDF /* commit.h in Headers */,
 				F8D67ED51B7BB7DA00021BDF /* diff.h in Headers */,
 				F804C3D91B7BF2E400C40501 /* userdiff.h in Headers */,
+				8CCB9B441E73058400785718 /* merge.h in Headers */,
 				F804C2811B7BF2CE00C40501 /* delta.h in Headers */,
 				F8D67EC91B7BB7DA00021BDF /* clone.h in Headers */,
+				8CCB9B361E73058400785718 /* commit.h in Headers */,
+				8CCB9B3E1E73058400785718 /* hashsig.h in Headers */,
 				F804C4271B7BF2F600C40501 /* xemit.h in Headers */,
 				F804C3251B7BF2D300C40501 /* pack.h in Headers */,
 				F804C24D1B7BF2CD00C40501 /* buffer.h in Headers */,
 				F8D67F2A1B7BB7E800021BDF /* trace.h in Headers */,
 				F8D67EE71B7BB7DA00021BDF /* merge.h in Headers */,
 				8CAC92C31E58B27200BA2587 /* proxy.h in Headers */,
+				8CCB9B4C1E73058400785718 /* reflog.h in Headers */,
 				F804C2AF1B7BF2CF00C40501 /* fileops.h in Headers */,
 				F8D67EBF1B7BB7DA00021BDF /* blob.h in Headers */,
 				F804C2BB1B7BF2CF00C40501 /* global.h in Headers */,
@@ -1871,6 +1990,7 @@
 				F8D67F2E1B7BB7E800021BDF /* transport.h in Headers */,
 				F804C28F1B7BF2CE00C40501 /* diff_file.h in Headers */,
 				F804C2771B7BF2CE00C40501 /* curl_stream.h in Headers */,
+				8CCB9B421E73058400785718 /* mempack.h in Headers */,
 				F8D67F0F1B7BB7DA00021BDF /* revert.h in Headers */,
 				F804C3191B7BF2D200C40501 /* oidmap.h in Headers */,
 				F804C2671B7BF2CD00C40501 /* common.h in Headers */,
@@ -1878,6 +1998,7 @@
 				F804C3391B7BF2D400C40501 /* pqueue.h in Headers */,
 				F804C31D1B7BF2D300C40501 /* openssl_stream.h in Headers */,
 				F804C3831B7BF2D900C40501 /* stransport_stream.h in Headers */,
+				8CCB9B381E73058400785718 /* config.h in Headers */,
 				F8D67EFB1B7BB7DA00021BDF /* patch.h in Headers */,
 				F804C3BF1B7BF2E000C40501 /* smart.h in Headers */,
 				F8D67F341B7BB7E800021BDF /* version.h in Headers */,
@@ -1942,7 +2063,7 @@
 		F8D67E2B1B7BA85D00021BDF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = phatblat;
 				TargetAttributes = {
 					F81CC0121B93355800FA6C0F = {
@@ -2032,8 +2153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CCB9B5A1E7311F200785718 /* tsort.c in Sources */,
 				8CAC92981E58B14800BA2587 /* apply.c in Sources */,
-				F804C3D01B7BF2E300C40501 /* tsort.c in Sources */,
 				F804C2E61B7BF2D000C40501 /* merge.c in Sources */,
 				F804C2F21B7BF2D100C40501 /* mwindow.c in Sources */,
 				8CAC92B81E58B26000BA2587 /* patch_parse.c in Sources */,
@@ -2134,6 +2255,7 @@
 				F804C3941B7BF2DB00C40501 /* tag.c in Sources */,
 				F804C4321B7BF2FA00C40501 /* xprepare.c in Sources */,
 				F804C29A1B7BF2CE00C40501 /* diff_xdiff.c in Sources */,
+				8CCB9B5D1E7318CC00785718 /* varint.c in Sources */,
 				F804C2361B7BF2CD00C40501 /* blame.c in Sources */,
 				F804C3981B7BF2DC00C40501 /* thread-utils.c in Sources */,
 				F804C3B41B7BF2E000C40501 /* cred_helpers.c in Sources */,
@@ -2277,6 +2399,7 @@
 				F804C3951B7BF2DB00C40501 /* tag.c in Sources */,
 				F804C4331B7BF2FA00C40501 /* xprepare.c in Sources */,
 				F804C29B1B7BF2CE00C40501 /* diff_xdiff.c in Sources */,
+				8CCB9B5C1E7318CC00785718 /* varint.c in Sources */,
 				F804C2371B7BF2CD00C40501 /* blame.c in Sources */,
 				F804C3991B7BF2DC00C40501 /* thread-utils.c in Sources */,
 				F804C3B51B7BF2E000C40501 /* cred_helpers.c in Sources */,
@@ -2372,8 +2495,11 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -2392,6 +2518,9 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2418,8 +2547,11 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -2432,6 +2564,9 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -2448,6 +2583,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -2463,6 +2599,7 @@
 					"$(SRCROOT)/../External/libgit2/include",
 					"$(SRCROOT)/../External/libgit2/src",
 					"$(SRCROOT)/../External/libssh2-ios/include/libssh2",
+					"$(SRCROOT)/../External/libgit2/deps/http-parser",
 				);
 				INFOPLIST_FILE = "git2-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2477,6 +2614,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-iOS";
 				PRODUCT_NAME = git2;
 				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
@@ -2484,6 +2622,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -2499,6 +2638,7 @@
 					"$(SRCROOT)/../External/libgit2/include",
 					"$(SRCROOT)/../External/libgit2/src",
 					"$(SRCROOT)/../External/libssh2-ios/include/libssh2",
+					"$(SRCROOT)/../External/libgit2/deps/http-parser",
 				);
 				INFOPLIST_FILE = "git2-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2513,6 +2653,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.git2-iOS";
 				PRODUCT_NAME = git2;
 				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
