@@ -10,7 +10,6 @@
 #import "GTDiffFile.h"
 #import "NSError+Git.h"
 #import "NSArray+StringArray.h"
-#import "git2.h"
 
 // The type of block set in progressBlock for progress reporting
 typedef void (^GTCheckoutProgressBlock)(NSString *path, NSUInteger completedSteps, NSUInteger totalSteps);
