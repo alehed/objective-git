@@ -71,13 +71,16 @@ framework module git2 {
         header "sys/hashsig.h"
         header "sys/index.h"
         header "sys/mempack.h"
+        header "sys/merge.h"
         header "sys/odb_backend.h"
         header "sys/openssl.h"
         header "sys/refdb_backend.h"
         header "sys/reflog.h"
         header "sys/refs.h"
+        header "sys/remote.h"
         header "sys/repository.h"
         header "sys/stream.h"
+        header "sys/time.h"
         header "sys/transport.h"
 
         export *
