@@ -77,7 +77,7 @@ framework module git2 {
         header "sys/refdb_backend.h"
         header "sys/reflog.h"
         header "sys/refs.h"
-        header "sys/remote.h"
+//        header "sys/remote.h"
         header "sys/repository.h"
         header "sys/stream.h"
         header "sys/time.h"
